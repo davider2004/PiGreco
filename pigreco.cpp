@@ -5,7 +5,7 @@ float pg_leib(float n);
 float precisione,p1,p2,ripetere,s;
 int main (int argc, char *argv[])
 {
-   do{cout<<"Inserisci la precisione"<<endl;
+   do{cout<<"[RAMONDETTIDAVIDE PIGRECO] Inserisci la precisione"<<endl;
    cin>>precisione;
    int k=50;
    do
@@ -14,11 +14,11 @@ int main (int argc, char *argv[])
     p2=pg_leib(k*2);
     k=k*2;
     } while (fabs (p1-p2)>precisione);
-    cout<<"il pigreco vale........."<<endl;
+    cout<<"Il PiGreco vale"<<endl;
     cout<<(p1+p2)/2<<endl;;
-    cout<<"le iterazioni fatte sono........"<<endl;
+    cout<<"le iterazioni fatte sono"<<endl;
     cout<<k/2<<endl;
-     cout<<"Ripetere (1-si')"<<endl;
+     cout<<"Vuoi ripetere lo script? (1 = si, 2 = no)"<<endl;
     cin>>ripetere;
   }while (ripetere==1);
    
