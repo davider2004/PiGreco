@@ -19,7 +19,7 @@ read
 echo "Insert your password before continue"
 sudo echo "Authorized"
 echo "Starting..."
-sudo g++ -std=c++11 -o main *.cpp
+sudo g++ -std=c++11 -o pigreco *.cpp
 
 clear
 figlet "PiGreco"
