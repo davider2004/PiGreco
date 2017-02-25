@@ -6,7 +6,7 @@ echo "<github.com/davider2004>"
 echo
 echo "Do you want compile PiGreco.cpp? ENTER"
 read
-sudo g++ -std=c++11 -o main *.cpp
+sudo g++ -std=c++11 -o pigreco *.cpp
 echo
 clear
 figlet "PiGreco"
